@@ -1,0 +1,13 @@
+package Multi.frame.work.example.reposegtry;
+
+import Multi.frame.work.example.entity.User;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import java.util.Optional;
+
+
+@Repository
+public interface UserRepository extends JpaRepository<User, Long> {
+    Optional<User> findByUserName(String username);
+}
