@@ -30,7 +30,7 @@ public class SwaggerConfiguration {
                 .title("API Documentation")
                 .version("1.0")
                 .description("API for Multi Framework application")
-                .contact(new Contact("Adnan Ahmed", "", "adnan.mohd.ahmed@gmail.com"))
+                .contact(new Contact("Adnan Ahmed", "", ""))
                 .license("Apache License Version 2.0")
                 .build();
     }
